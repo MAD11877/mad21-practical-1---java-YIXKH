@@ -13,7 +13,7 @@ public class Question5
      * to find the mode
      */
 
-    Scanner in=new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
     System.out.println("Enter a number: "); 
     int n = in.nextInt(),c;
     int [] a=new int[n];
