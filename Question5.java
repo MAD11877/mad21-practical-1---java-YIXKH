@@ -14,11 +14,11 @@ public class Question5
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter a number: "); 
+    System.out.println(); 
     int n = in.nextInt(),c;
     int [] a=new int[n];
     int [] b=new int[n];
-    System.out.println("Enter "+n+" integers: ");
+    System.out.println();
     for(int i=0;i<n;i++) 
     {
       a[i]=in.nextInt();
@@ -54,7 +54,7 @@ public class Question5
       
     }
           
-    System.out.println("The mode of the integers is: "); 
+    System.out.println(); 
     for(int i=0;i<n;i++) 
     {
         if(b[i]==m)
