@@ -19,7 +19,7 @@ public class Question4
      
     int rows, i, j;
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter number of rows in triangle: ");
+    System.out.println();
     rows = in.nextInt();
     for(i = rows; i > 0; i--) 
     {
