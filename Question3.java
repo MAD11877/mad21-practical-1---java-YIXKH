@@ -11,6 +11,11 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
+    System.out.print("Input your integer: ");
+    int integer = in.nextInt();
+    int newint = integer * integer;
+    System.out.print("\nThe square of the integer is: " + newint);
+    in.close();
     
   }
 }
